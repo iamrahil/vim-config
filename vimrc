@@ -54,4 +54,8 @@ if has('mouse')
   set mouse=a
 endif
 
-
+"Disable Arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
