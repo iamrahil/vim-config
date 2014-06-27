@@ -47,6 +47,10 @@ set laststatus=2
 "	set t_Co=128
 "endif
 
+if &t_Co == 256
+	colorscheme Tomorrow-Night
+endif
+
 "Display whitespace characters
 set listchars=tab:>·,trail:·
 
