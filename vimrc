@@ -43,12 +43,12 @@ let g:tex_flavor = "latex"
 
 set laststatus=2
 
-if &t_Co == 8
-	set t_Co=128
-endif
+"if &t_Co == 8
+"	set t_Co=128
+"endif
 
 "Display whitespace characters
-set list listchars=tab:>·,trail:·
+set listchars=tab:>·,trail:·
 
 if has('mouse')
   set mouse=a
