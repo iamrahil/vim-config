@@ -43,12 +43,8 @@ let g:tex_flavor = "latex"
 
 set laststatus=2
 
-"if &t_Co == 8
-"	set t_Co=128
-"endif
-
 if &t_Co == 256
-    colorscheme Tomorrow-Night
+    colorscheme Tomorrow-Night-Eighties
 endif
 
 "Display whitespace characters
@@ -68,3 +64,9 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+"Functions
+function Opaq()
+	set t_Co=256
+	colorscheme Tomorrow-Night-Eighties
+endfunction
