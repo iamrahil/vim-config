@@ -52,7 +52,8 @@ if &t_Co == 256
 endif
 
 "Display whitespace characters
-set listchars=tab:>·,trail:·
+set listchars=tab:│\ ,trail:·
+set list
 
 if has('mouse')
   set mouse=a
