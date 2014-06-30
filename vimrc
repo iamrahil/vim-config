@@ -48,12 +48,16 @@ set laststatus=2
 "endif
 
 if &t_Co == 256
-	colorscheme Tomorrow-Night
+    colorscheme Tomorrow-Night
 endif
 
 "Display whitespace characters
 set listchars=tab:│\ ,trail:·
 set list
+
+"Fold Methods
+set foldmethod=indent
+set nofoldenable    "Stop from folding at load
 
 if has('mouse')
   set mouse=a
