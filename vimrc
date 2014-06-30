@@ -13,7 +13,7 @@ set shiftwidth=4
 map <Esc>[B <Down>]
 
 let g:CSApprox_verbose_level = 0
-map <leader>o :NERDTreeToggle<cr>
+map <F8> :NERDTreeToggle<cr>
 " let g:NERDTreeDirArrows=0
 
 "Set a nice Omnifunc - <CTRL>X <CTRL>O
