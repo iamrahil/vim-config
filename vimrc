@@ -14,6 +14,7 @@ map <Esc>[B <Down>]
 
 let g:CSApprox_verbose_level = 0
 map <F8> :NERDTreeToggle<cr>
+map <F9> :TagbarToggle<cr>
 " let g:NERDTreeDirArrows=0
 
 "Set a nice Omnifunc - <CTRL>X <CTRL>O
@@ -69,4 +70,8 @@ noremap <Right> <NOP>
 function Opaq()
 	set t_Co=256
 	colorscheme Tomorrow-Night-Eighties
+endfunction
+
+function Transp()
+	set t_Co=128
 endfunction
