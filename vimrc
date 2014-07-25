@@ -1,3 +1,4 @@
+set runtimepath+=/usr/local/go/misc/vim " replace $GOROOT with the output of: go env GOROOT
 execute pathogen#infect()
 syntax on
 set number
