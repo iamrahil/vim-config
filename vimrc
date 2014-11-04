@@ -67,6 +67,11 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+"Buffer Mappings
+nmap <C-e> :b#<CR>
+nmap <C-PageUp> :bnext<CR>
+nmap <C-PageDown> :bprev<CR>
+
 "Functions
 function Opaq()
 	set t_Co=256
