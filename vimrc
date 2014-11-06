@@ -72,6 +72,9 @@ nmap <C-e> :b#<CR>
 nmap <C-PageUp> :bnext<CR>
 nmap <C-PageDown> :bprev<CR>
 
+"Toggle Highlights
+map <leader>q :noh<CR>
+
 "Functions
 function Opaq()
 	set t_Co=256
